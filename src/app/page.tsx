@@ -2,10 +2,10 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
+import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
@@ -106,11 +106,10 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqSplitMedia
+      <FaqBase
       textboxLayout="split"
       useInvertedBackground={false}
       faqsAnimation="slide-up"
-      mediaAnimation="slide-up"
       title="What people quietly wonder"
       description="Send a direct message if you have further questions."
       faqs={[
@@ -123,24 +122,21 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplitForm
-      useInvertedBackground={true}
+      <ContactCenter
+      tag="Book now"
       title="Start with a conversation"
       description="Complimentary 15-minute consultation with Dr Chess."
-      inputs={[
-        { name: "name", type: "text", placeholder: "Your name", required: true },
-        { name: "email", type: "email", placeholder: "Your email", required: true }
-      ]}
-      textarea={{ name: "message", placeholder: "What are you considering?", rows: 4 }}
+      background={{ variant: "plain" }}
+      useInvertedBackground={true}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseCard
+      <FooterLogoEmphasis
       logoText="Dr Chess"
       columns={[
-        { title: "Practice", items: [{ label: "Doctor", href: "#about" }, { label: "Treatments", href: "#treatments" }] },
-        { title: "Contact", items: [{ label: "020 0000 0000", href: "tel:02000000000" }, { label: "hello@drchess.com", href: "mailto:hello@drchess.com" }] }
+        { items: [{ label: "Doctor", href: "#about" }, { label: "Treatments", href: "#treatments" }] },
+        { items: [{ label: "020 0000 0000", href: "tel:02000000000" }, { label: "hello@drchess.com", href: "mailto:hello@drchess.com" }] }
       ]}
     />
   </div>
