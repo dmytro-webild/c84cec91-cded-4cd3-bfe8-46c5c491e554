@@ -46,14 +46,14 @@ export default function LandingPage() {
       title="The art of looking untouched."
       description="Considered, precise injectable medicine by Dr Christian Chess. Natural, by design. Harley Street-trained, GMC-registered care for those who prioritize discretion."
       testimonials={[
-        { name: "Tori West", handle: "Local Guide", testimonial: "A week later and I have never been so happy. Natural finish, smooth forehead, zero pressure.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg", imageAlt: "aesthetic clinic interior luxury" },
+        { name: "Tori West", handle: "Local Guide", testimonial: "A week later and I have never been so happy. Natural finish, smooth forehead, zero pressure.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg?_wi=1", imageAlt: "aesthetic clinic interior luxury" },
         { name: "Georgia T.", handle: "Patient", testimonial: "Astounded at the knowledge - Harley Street training is evident in every movement.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-67076.jpg", imageAlt: "aesthetic clinic interior luxury" },
         { name: "Beth W.", handle: "Patient", testimonial: "Does not push things he doesn't think you should have. Outstanding results.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/row-bowl-spa_23-2147844951.jpg", imageAlt: "aesthetic clinic interior luxury" },
-        { name: "Rebecca T.", handle: "First-timer", testimonial: "Made me feel at ease. No pressure, honest plan, incredible outcome.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg", imageAlt: "aesthetic clinic interior luxury" },
-        { name: "Polly H.", handle: "Local Guide", testimonial: "My skin looks fresh and smooth. I've got exactly the movement I wanted.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg", imageAlt: "aesthetic clinic interior luxury" }
+        { name: "Rebecca T.", handle: "First-timer", testimonial: "Made me feel at ease. No pressure, honest plan, incredible outcome.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg?_wi=1", imageAlt: "aesthetic clinic interior luxury" },
+        { name: "Polly H.", handle: "Local Guide", testimonial: "My skin looks fresh and smooth. I've got exactly the movement I wanted.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg?_wi=1", imageAlt: "aesthetic clinic interior luxury" }
       ]}
       buttons={[{ text: "Book Consultation", href: "#contact" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg?_wi=2"
       imageAlt="Dr Chess Aesthetic Medical Portrait"
     />
   </div>
@@ -96,11 +96,11 @@ export default function LandingPage() {
       title="Real reviews. Real people."
       description="Every quote below is a verified Google review, unedited."
       testimonials={[
-        { id: "1", name: "Tori West", role: "Local Guide", testimonial: "I have never been so happy. Natural finish, full movement.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg" },
-        { id: "2", name: "Georgia T.", role: "Patient", testimonial: "Astounded at the knowledge - Harley Street training is evident.", imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg" },
+        { id: "1", name: "Tori West", role: "Local Guide", testimonial: "I have never been so happy. Natural finish, full movement.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg?_wi=2" },
+        { id: "2", name: "Georgia T.", role: "Patient", testimonial: "Astounded at the knowledge - Harley Street training is evident.", imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg?_wi=2" },
         { id: "3", name: "Wendy H.", role: "Patient", testimonial: "I was worried about my lips looking unnatural - they were perfect.", imageSrc: "http://img.b2bpic.net/free-photo/blonde-female-doctor-with-stethoscope-looking-aside_114579-21779.jpg" },
         { id: "4", name: "Beth W.", role: "Patient", testimonial: "Does not push things he doesn't think you should have.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-125.jpg" },
-        { id: "5", name: "Rebecca T.", role: "Patient", testimonial: "Everything he suggested made sense, no pressure.", imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg" }
+        { id: "5", name: "Rebecca T.", role: "Patient", testimonial: "Everything he suggested made sense, no pressure.", imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg?_wi=3" }
       ]}
     />
   </div>
