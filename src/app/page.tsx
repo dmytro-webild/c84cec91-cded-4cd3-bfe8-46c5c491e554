@@ -72,7 +72,7 @@ export default function LandingPage() {
           handle: "Local Guide",
           testimonial: "A week later and I have never been so happy. Natural finish, smooth forehead, zero pressure.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg?_wi=1",
           imageAlt: "aesthetic clinic interior luxury",
         },
         {
@@ -80,7 +80,7 @@ export default function LandingPage() {
           handle: "Patient",
           testimonial: "Astounded at the knowledge - Harley Street training is evident in every movement.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-67076.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-67076.jpg?_wi=1",
           imageAlt: "aesthetic clinic interior luxury",
         },
         {
@@ -88,7 +88,7 @@ export default function LandingPage() {
           handle: "Patient",
           testimonial: "Does not push things he doesn't think you should have. Outstanding results.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/row-bowl-spa_23-2147844951.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/row-bowl-spa_23-2147844951.jpg?_wi=1",
           imageAlt: "aesthetic clinic interior luxury",
         },
         {
@@ -96,7 +96,7 @@ export default function LandingPage() {
           handle: "First-timer",
           testimonial: "Made me feel at ease. No pressure, honest plan, incredible outcome.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg?_wi=1",
           imageAlt: "aesthetic clinic interior luxury",
         },
         {
@@ -104,7 +104,7 @@ export default function LandingPage() {
           handle: "Local Guide",
           testimonial: "My skin looks fresh and smooth. I've got exactly the movement I wanted.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg?_wi=1",
           imageAlt: "aesthetic clinic interior luxury",
         },
       ]}
@@ -118,7 +118,7 @@ export default function LandingPage() {
           href: "#treatments",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg?_wi=2"
       imageAlt="Dr Chess Aesthetic Medical Portrait"
       avatars={[
         {
@@ -242,7 +242,7 @@ export default function LandingPage() {
             "Deep hydration.",
             "Restored bounce and luminosity.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg?_wi=3",
         },
         {
           id: "6",
@@ -251,7 +251,7 @@ export default function LandingPage() {
             "15 minutes.",
             "No pressure, honest plan.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-67076.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-67076.jpg?_wi=2",
         },
       ]}
       title="A small, deliberate menu"
@@ -269,14 +269,14 @@ export default function LandingPage() {
           name: "Tori West",
           role: "Local Guide",
           testimonial: "I have never been so happy. Natural finish, full movement.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-young-medical-doctor-grey-background_613910-123.jpg?_wi=2",
         },
         {
           id: "2",
           name: "Georgia T.",
           role: "Patient",
           testimonial: "Astounded at the knowledge - Harley Street training is evident.",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-nurse-posing_23-2150796846.jpg?_wi=2",
         },
         {
           id: "3",
@@ -297,7 +297,7 @@ export default function LandingPage() {
           name: "Rebecca T.",
           role: "Patient",
           testimonial: "Everything he suggested made sense, no pressure.",
-          imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/serious-professional-doctor_23-2147642815.jpg?_wi=4",
         },
       ]}
       title="Real reviews. Real people."
@@ -331,7 +331,7 @@ export default function LandingPage() {
           content: "Never. No packages, no pressure-promotions.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/row-bowl-spa_23-2147844951.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/row-bowl-spa_23-2147844951.jpg?_wi=2"
       mediaAnimation="slide-up"
       title="What people quietly wonder"
       description="Send a direct message if you have further questions."
